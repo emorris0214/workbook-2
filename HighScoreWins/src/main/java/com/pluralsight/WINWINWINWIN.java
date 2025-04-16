@@ -26,9 +26,11 @@ public class WINWINWINWIN {
         int score2 = Integer.parseInt(strScore2);
 
         // How we find the winner
-        String winner;
+        String winner = "";
         if (score1 > score2){
             winner = team1;
+        } else if (score1 == score2){
+            System.out.println("It's a TIE!");
         } else {
             winner = team2;
         }
