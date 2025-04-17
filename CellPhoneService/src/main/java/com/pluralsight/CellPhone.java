@@ -19,6 +19,7 @@ public class CellPhone {
 - carrier = ""
 - phoneNumber = ""
 - owner = "" */
+    // Constructor (default empty for Scanner)
     public CellPhone () {
         this.serialNumber = 0;
         this.model = "";
