@@ -68,4 +68,10 @@ public class CellPhone {
         this.owner = owner;
     }
 
+    // Exercise 2
+    public void dial(String phoneNumberToCall, String ownerToCall) {
+        System.out.println(this.owner + "'s phone is calling " + ownerToCall + "'s phone at " + phoneNumberToCall);
+    }
+
+
 }
